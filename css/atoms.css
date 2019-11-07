@@ -1,0 +1,237 @@
+.posa {
+    position: absolute;
+}
+
+.posr {
+    position: relative;
+}
+
+.t3 {
+    top: 3px;
+}
+
+.t4 {
+    top: 4px;
+}
+
+.t9 {
+    top: 9px;
+}
+
+.t20 {
+    top: 20px;
+}
+
+.t33 {
+    top: 33px;
+}
+
+.r0 {
+    right: 0;
+}
+
+.min-100p {
+    min-width: 100%;
+}
+
+.max-w1400 {
+    max-width: 1400px;
+}
+
+.w2p {
+    width: 2%;
+}
+
+.w100p {
+    width: 100%;
+}
+
+.w20 {
+    width: 20px;
+}
+.w30 {
+    width: 30px;
+}
+
+.m0auto {
+    margin: 0 auto;
+}
+
+.mt15 {
+    margin-top: 15px;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+.mt50 {
+    margin-top: 50px;
+}
+
+.mr40 {
+    margin-right: 40px;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.p20 {
+    padding: 20px;
+}
+
+.pt0 {
+   padding-top: 0;
+}
+
+.pt15 {
+   padding-top: 15px;
+}
+
+.pt20 {
+    padding-top: 20px;
+}
+
+.pt30 {
+    padding-top: 30px;
+}
+
+.pt40 {
+   padding-top: 40px;
+}
+
+.pt50 {
+    padding-top: 50px;
+}
+
+.pt100 {
+    padding-top: 100px;
+}
+
+.pt150 {
+   padding-top: 150px;
+}
+
+.pr0 {
+   padding-right: 0;
+}
+
+.pr15 {
+   padding-right: 15px;
+}
+
+.pr25 {
+    padding-right: 25px;
+}
+
+.pr40 {
+    padding-right: 40px;
+}
+
+.pb10 {
+    padding-bottom: 10px;
+}
+
+.pb15 {
+   padding-bottom: 15px;
+}
+
+.pb20 {
+    padding-bottom: 20px;
+}
+
+.pb30 {
+    padding-bottom: 30px;
+}
+
+.pb40 {
+   padding-bottom: 40px;
+}
+
+.pb50 {
+   padding-bottom: 50px;
+}
+
+.pb100 {
+    padding-bottom: 100px;
+}
+
+.pb150 {
+    padding-bottom: 150px;
+}
+
+.pl0 {
+    padding-left: 0;
+}
+
+.pl15 {
+   padding-left: 15px;
+}
+
+.pl40 {
+    padding-left: 40px;
+}
+
+.border1-white {
+    border: solid 1px white !important;
+}
+
+.flip-xy {
+    -webkit-transform: scale(-1, -1);
+       -moz-transform: scale(-1, -1);
+         -o-transform: scale(-1, -1);
+            transform: scale(-1, -1);
+}
+
+.translatey-6 {
+    transform: translateY(6px);
+}
+
+.cp {
+    cursor: pointer;
+}
+
+.no-outline {
+    text-decoration: none;
+    outline: 0;
+    border: none;
+    -moz-outline-style: none
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+.fix-to-top {
+    position: fixed;
+    top: 0;
+    width: 1400px;
+    height: 100px !important;
+    background-color: black;
+    opacity: 1;
+    z-index: 5000;
+}
+
+.fix-to-top > .nav-logo {
+    top: -25px;
+}
+
+.tac {
+    text-align: center;
+}
+
+.lh09 {
+    line-height: 0.9;
+}
+
+.fw700 {
+    font-weight: 700;
+}
+
+.b0 {
+    border: none;
+}

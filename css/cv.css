@@ -1,0 +1,88 @@
+
+.cv-quote {
+    font-size: 35px;
+    padding: 100px 0;
+}
+
+.cv-bumper {
+    padding: 100px 0;
+}
+
+.cv-listing-double-column {
+    padding: 0;
+    height: 0;
+    visibility: hidden;
+}
+
+.cv-listing-triple-column {
+    padding-bottom: 100px;
+    visibility: visible;
+}
+
+.cv-listing {
+    padding: 0 70px;
+}
+
+.cv-listing h3 {
+    padding: 10px 0;
+}
+
+.cv-listing ul {
+    line-height: 1.8;
+    padding-bottom: 30px;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    .cv-listing-triple-column {
+        background: none;
+        background-color: #fff;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cv-quote {
+        font-size: 25px;
+    }
+
+    .cv-bumper {
+        padding: 50px 0 70px 0;
+    }
+
+    .cv-listing-double-column {
+        height: auto;
+        visibility: visible;
+        padding-bottom: 70px;
+    }
+
+    .cv-listing-triple-column {
+        height: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cv-quote {
+        font-size: 25px;
+        padding: 50px 40px;
+        text-align: center;
+    }
+
+    .cv-intro {
+        padding: 0 40px 50px 40px;
+    }
+
+    .cv-bumper {
+        padding: 0;
+        height: 0;
+        border: none;
+    }
+
+    .cv-listing-double-column,
+    .cv-listing-triple-column {
+        height: 0;
+        padding: 0;
+        visibility: hidden;
+    }
+}

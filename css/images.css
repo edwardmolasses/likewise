@@ -1,0 +1,131 @@
+/**********************************************/
+/*                  LOGO                      */
+/**********************************************/
+
+.banner-logo {
+    height: 69px; width: 336px;
+    background-color: #000;
+    background: url('../images/banner-logo.png') no-repeat center;
+}
+
+.banner-slogan {
+    font-weight: normal;
+    padding-right: 23px;
+}
+
+@media screen and (max-width: 1075px) {
+    .banner-slogan {
+        padding-right: 22px;
+        font-size: 20px;
+    }
+
+    .banner-logo {
+        height: 60px; width: 290px;
+        background: url('../images/1024logo.png') no-repeat center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .banner-logo {
+        height: 43px; width: 205px;
+        background: url('../images/320logo.png') no-repeat center;
+    }
+}
+
+/**********************************************/
+/*                  NAV LOGO                  */
+/**********************************************/
+
+/* see buttons.css */
+
+/**********************************************/
+/*             SERVICES: BURGERS              */
+/**********************************************/
+
+.services-hamburger-one,
+.services-hamburger-two,
+.services-hamburger-three,
+.services-hamburger-four {
+    height: 162px; width: 218px;
+    background: url('../images/burger.png') no-repeat center;
+}
+
+@media screen and (max-width: 1060px) {
+    .services-hamburger-one,
+    .services-hamburger-two,
+    .services-hamburger-three,
+    .services-hamburger-four {
+        height: 132px; width: 162px;
+        background: url('../images/768burger.png') no-repeat center;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .services-hamburger-one,
+    .services-hamburger-two,
+    .services-hamburger-three,
+    .services-hamburger-four {
+        height: 86px; width: 106px;
+        background: url('../images/480burger.png') no-repeat center;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .services-hamburger-one,
+    .services-hamburger-two,
+    .services-hamburger-three,
+    .services-hamburger-four {
+        height: 59px; width: 64px;
+        background: url('../images/320burger.png') no-repeat center;
+    }
+}
+
+/**********************************************/
+/*              SERVICES: FRIES               */
+/**********************************************/
+
+.services-fries {
+    height: 175px; width: 518px;
+    background: url('../images/fries.png') no-repeat center;
+    /*background-size: cover;*/
+    background-size: 500px 165px, cover;
+}
+
+@media screen and (max-width: 1399px) {
+    .services-fries {
+        height: 115px; width: 348px;
+        background-image: url('../images/768fries.png') no-repeat center;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .services-fries {
+        height: 115px; width: 348px;
+        background-image: url('../images/768fries.png');
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .services-fries {
+        height: 93px; width: 283px;
+        background-image: url('../images/480fries.png');
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .services-fries {
+        height: 61px; width: 185px;
+        background-image: url('../images/320fries.png');
+    }
+}
+
+/**********************************************/
+/*                  FOOTER LOGO               */
+/**********************************************/
+
+.footer-logo {
+    height: 50px; width: 240px;
+    background-color: #000;
+    background: url('../images/480logo.png') no-repeat center;
+}

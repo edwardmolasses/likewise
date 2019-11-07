@@ -1,0 +1,356 @@
+
+.cv-listing-triple-column {
+    background-image: url('../images/beans.png');
+    background-repeat: no-repeat;
+    background-position: 100% 108%;
+}
+
+/**********************************************/
+/*                  OWLS                      */
+/**********************************************/
+
+.banner {
+    height: 500px;
+}
+
+.banner-owl-one,
+.banner-owl-two,
+.banner-owl-three {
+    width: 365px;
+    height: 285px;
+}
+
+.banner-owl-one,
+.banner-owl-three {
+    background: url('../images/owl1.png') no-repeat center;
+}
+
+.banner-owl-two {
+    background: url('../images/owl2.png') no-repeat center;
+}
+
+.banner-owl-three-blink {
+    top: 63px; left: 198px;
+    height: 75px;
+    width: 90px;
+    background: url('../images/owl-blink.png') no-repeat center;
+}
+
+@media screen and (max-width: 1075px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner-owl-one,
+    .banner-owl-two,
+    .banner-owl-three {
+        width: 246px;
+        height: 221px;
+    }
+
+    .banner-owl-one,
+    .banner-owl-three {
+        background: url('../images/768owl1.png') no-repeat center;
+    }
+
+    .banner-owl-two {
+        background: url('../images/768owl2.png') no-repeat center;
+    }
+
+    .banner-owl-three-blink {
+        top: 72px; left: 128px;
+        height: 50px;
+        width: 59px;
+        background: url('../images/768blink.png') no-repeat center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner {
+        height: 340px;
+    }
+
+    .banner-slogan {
+        font-size: 20px;
+    }
+
+    .banner-owl-one,
+    .banner-owl-two,
+    .banner-owl-three {
+        width: 194px;
+        height: 148px;
+    }
+
+    .banner-owl-one,
+    .banner-owl-three {
+        background: url('../images/320owl.png') no-repeat center;
+    }
+
+    .banner-owl-two {
+        background: url('../images/320owl.png') no-repeat center;
+    }
+
+    .banner-owl-three-blink {
+        display: none;
+        top: 38px; right: 20px;
+        height: 50px;
+        width: 59px;
+        background: url('../images/320blink.png') no-repeat center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .banner-owl-three,
+    .banner-owl-buffer-two,
+    .banner-owl-three-blink {
+        display: none;
+    }
+}
+
+/**********************************************/
+/*               INTRODUCTION                 */
+/**********************************************/
+
+.introduction-title {
+    padding-top: 7%;
+}
+
+.introduction-content {
+    padding-top: 1%;
+}
+
+.introduction-scroll-caret {
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+
+@media screen and (max-width: 1075px) {
+    .introduction-title {
+        padding-top: 10%;
+    }
+
+    .introduction-scroll-caret {
+        padding-bottom: 5%;
+    }
+}
+
+/**********************************************/
+/*                  LAWYERS                   */
+/**********************************************/
+
+.lawyers-banner {
+    height: 660px;
+    background-color: #000;
+    background-image: url('../images/lawyers-pic.png');
+}
+
+.lawyers-banner > div {
+    margin-top: 197px;
+}
+
+.lawyers-banner-title {
+    font-size: 40px;
+}
+
+.lawyers-banner-title-caret {
+    top: 80px;
+}
+
+@media screen and (max-width: 1075px) {
+    .lawyers-banner > div {
+        margin-top: 120px;
+    }
+
+    .lawyers-banner-title {
+        font-size: 30px;
+    }
+
+    .lawyers-banner-title-caret {
+        top: 40px;
+    }
+
+    .lawyers-banner {
+        height: 496px;
+        background-image: url('../images/1024lawyers.png');
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lawyers-banner-title {
+        font-size: 20px;
+    }
+
+    .lawyers-banner {
+        height: 393px;
+        background-image: url('../images/768lawyers.png');
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lawyers-banner > div {
+        margin-top: -50px;
+    }
+
+    .lawyers-banner-title {
+        font-size: 25px;
+    }
+
+    .lawyers-banner-title {
+        padding: 0 30%;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lawyers-banner-title {
+        padding: 0 10%;
+        font-size: 20px;
+    }
+
+    .lawyers-banner {
+        height: 321px;
+        background-image: url('../images/320lawyers.png');
+    }
+}
+
+/**********************************************/
+/*                  CUPS                      */
+/**********************************************/
+
+.services-banner {
+    height: 774px;
+    background: url('../images/cups.png') no-repeat center;
+}
+
+.services-banner > div {
+    font-size: 40px;
+    padding-top: 160px;
+}
+
+.services-banner-scroll-caret {
+    padding-top: 470px;
+}
+
+@media screen and (max-width: 1075px) {
+    .services-banner {
+        height: 633px;
+        background-image: url('../images/1024cups.png');
+    }
+
+    .services-banner > div {
+        font-size: 35px;
+        padding-top: 130px;
+    }
+
+    .services-banner-scroll-caret {
+        padding-top: 350px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .services-banner {
+        height: 562px;
+        background-image: url('../images/768cups.png');
+    }
+
+    .services-banner > div {
+        font-size: 30px;
+        padding-top: 110px;
+    }
+
+    .services-banner-scroll-caret {
+        padding-top: 300px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .services-banner {
+        height: 517px;
+        background-image: url('../images/480cups.png');
+    }
+
+    .services-banner > div {
+        font-size: 25px;
+        padding-top: 110px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services-banner {
+        height: 321px;
+        background-image: url('../images/320cups.png');
+    }
+}
+
+/**********************************************/
+/*                  PRICING                   */
+/**********************************************/
+
+.pricing-banner {
+    height: 758px;
+    background: url('../images/upfront.png') no-repeat center;
+}
+
+@media screen and (max-width: 1024px) {
+    .pricing-banner {
+        height: 782px;
+        background-image: url('../images/1024meditation.png');
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .pricing-banner {
+        height: 785px;
+        background-image: url('../images/768meditation.png');
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .pricing-banner {
+        height: 532px;
+        background-image: url('../images/480meditation.png');
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .pricing-banner {
+        height: 536px;
+        background-image: url('../images/320meditation.png');
+    }
+}
+
+/**********************************************/
+/*                  MAP                       */
+/**********************************************/
+
+.map-banner {
+    height: 430px;
+    background: url('../images/map.png') no-repeat center;
+}
+
+@media screen and (max-width: 1024px) {
+    .map-banner {
+        height: 430px;
+        background-image: url('../images/1024map.png');
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .map-banner {
+        height: 430px;
+        background-image: url('../images/768map.png');
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .map-banner {
+        height: 282px;
+        background-image: url('../images/480map.png');
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .map-banner {
+        height: 282px;
+        background-image: url('../images/320map.png');
+    }
+}

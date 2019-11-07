@@ -1,0 +1,121 @@
+.services-intro {
+    padding: 100px 185px;
+}
+
+.services-intro-quote {
+    font-size: 35px;
+}
+
+.services-intro-detail > div {
+    margin-top: -30px;
+}
+
+.services-fries {
+    margin-bottom: 50px;
+}
+
+.services-franchising {
+    padding-bottom: 100px;
+}
+
+.services-franchising-bumper-line {
+    padding-top: 20px;
+}
+
+.services-franchising-bumper-line > div {
+    width: 30px;
+    border-bottom: solid 1px;
+}
+
+.services-franchising-bumper-stores,
+.services-franchising-bumper-trucks {
+    margin-bottom: 40px;
+}
+
+.services-franchising-bumper-stores {
+    padding-top: 200px;
+}
+
+.services-signhere {
+    top: -50px; right: 23%;
+    height: 195px; width: 414px;
+    background: url('../images/sign-here.png') no-repeat center;
+}
+
+.services-general {
+    padding-top: 120px;
+}
+
+.services-general-scroll-caret {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 1280px) {
+    .services-intro {
+        padding: 100px 100px;
+    }
+
+    .services-intro-quote {
+        font-size: 30px;
+    }
+
+    .services-intro-detail {
+        margin-top: 70px;
+    }
+
+    .services-intro-detail > div {
+        margin: 0;
+    }
+
+    .services-general-scroll-caret {
+        padding: 0 0 100px 0;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .services-signhere {
+        top: -50px; right: auto;
+        height: 156px; width: 331px;
+        background-image: url('../images/1024signhere.png');
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .services-general-detail-two {
+        margin-top: -33px;
+    }
+
+    .services-general-scroll-caret {
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .services-franchising {
+        padding: 0 50px 100px 50px;
+    }
+
+    .services-general {
+        padding-top: 140px;
+    }
+
+    .services-franchising-bumper-stores {
+        padding-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .services-signhere {
+        height: 124px; width: 261px;
+        background-image: url('../images/480signhere.png');
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .services-signhere {
+        height: 100px; width: 210px;
+        background-image: url('../images/320signhere.png');
+    }
+}
+

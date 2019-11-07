@@ -1,0 +1,7 @@
+.contact-input-container {
+    border: solid 1px white;
+}
+
+.validation-error {
+    border: solid 1px red;
+}

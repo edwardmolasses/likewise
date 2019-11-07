@@ -1,0 +1,96 @@
+.publications {
+    padding: 120px 0;
+}
+
+.publications-title {
+    padding-bottom: 40px;
+}
+
+.publications-image-one,
+.publications-image-two,
+.publications-image-three {
+    margin-bottom: 30px;
+    height: 211px;
+    width: 348px;
+}
+
+.publications-image-one {
+    background: url('../images/publications-structuring.png') no-repeat center;
+}
+
+.publications-image-two {
+    background: url('../images/publications-franchise-review.png') no-repeat center;
+}
+
+.publications-image-three {
+    background: url('../images/publications-franchise-act.png') no-repeat center;
+}
+
+.publications-detail {
+    margin: 0;
+    height: 140px;
+}
+
+.publications-title-buffer {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    width: 30px;
+    border-bottom: solid 1px #d3d3d3;
+}
+
+@media screen and (max-width: 1350px) {
+    .publications-image-one,
+    .publications-image-two,
+    .publications-image-three {
+        margin: 0 auto 30px auto;
+        height: 164px;
+        width: 248px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .publications-card-link {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .publications {
+        padding: 70px 0;
+    }
+
+    .publications-title {
+        padding-bottom: 10px;
+    }
+
+    .publications-image-one,
+    .publications-image-two,
+    .publications-image-three {
+        margin-bottom: 30px;
+        height: 211px;
+        width: 348px;
+    }
+
+    .publications-detail {
+        width: 350px;
+    }
+
+    .publications-card-one,
+    .publications-card-two,
+    .publications-card-three {
+        margin: 0 auto;
+    }
+
+    .publications-card-one,
+    .publications-card-two {
+        margin-bottom: 50px;
+    }
+
+    .publications-card-one-detail {
+        width: 250px;
+    }
+
+    .publications-card-link {
+        padding-top: 0;
+    }
+}
