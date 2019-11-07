@@ -5,8 +5,8 @@
 }
 
 .testimonials-content-quote-icon-one {
-    top: 50px;
-    left: -60px;
+    top: 15px;
+    left: -40px;
     opacity: 0.3;
     font-size: 50px !important;
 }
@@ -26,14 +26,28 @@
 }
 
 .testimonials-content-quote-icon-four {
-    top: 20px;
-    left: -40px;
+    top: 0;
+    left: 0;
     opacity: 0.3;
     font-size: 50px !important;
 }
 
 .testimonials-content-quote-icon-five {
     top: 20px;
+    left: -40px;
+    opacity: 0.3;
+    font-size: 50px !important;
+}
+
+.testimonials-content-quote-icon-six {
+    top: -3px;
+    left: -54px;
+    opacity: 0.3;
+    font-size: 50px !important;
+}
+
+.testimonials-content-quote-icon-seven {
+    top: 0;
     left: -40px;
     opacity: 0.3;
     font-size: 50px !important;
