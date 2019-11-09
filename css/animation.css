@@ -81,7 +81,7 @@
  * @description: A Simple Carousel Pure CSS Using Sass
  * @version: 1.0.0
  */
-.carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__prev > label:nth-child(5), 
+.carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__prev > label:nth-child(7), 
 .carousel > input[type="radio"]:nth-child(1):checked ~ .carousel__next > label:nth-child(2), 
 .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__prev > label:nth-child(1), 
 .carousel > input[type="radio"]:nth-child(2):checked ~ .carousel__next > label:nth-child(3), 
