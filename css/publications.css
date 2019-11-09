@@ -8,7 +8,10 @@
 
 .publications-image-one,
 .publications-image-two,
-.publications-image-three {
+.publications-image-three,
+.publications-image-four,
+.publications-image-five,
+.publications-image-six {
     margin-bottom: 30px;
     height: 211px;
     width: 348px;
@@ -26,6 +29,18 @@
     background: url('../images/publications-franchise-act.png') no-repeat center;
 }
 
+.publications-image-four {
+    background: url('../images/publication-eh-game.jpg') no-repeat center;
+}
+
+.publications-image-five {
+    background: url('../images/publication-howtostart.jpg') no-repeat center;
+}
+
+.publications-image-six {
+    background: url('../images/publication-top12-things.jpg') no-repeat center;
+}
+
 .publications-detail {
     margin: 0;
     height: 140px;
@@ -37,11 +52,27 @@
     width: 30px;
     border-bottom: solid 1px #d3d3d3;
 }
+    .publications-title-buffer-text {
+        font-size: 10px;
+        font-style: italic;
+        width: 50px;
+        top: 15px;
+        background-color: white;
+        margin-left: 12%;
+        text-align: center;
+    }
+
+.publications-row-one-buffer {
+    height: 50px;
+}
 
 @media screen and (max-width: 1350px) {
     .publications-image-one,
     .publications-image-two,
-    .publications-image-three {
+    .publications-image-three,
+    .publications-image-four,
+    .publications-image-five,
+    .publications-image-six {
         margin: 0 auto 30px auto;
         height: 164px;
         width: 248px;
@@ -65,7 +96,10 @@
 
     .publications-image-one,
     .publications-image-two,
-    .publications-image-three {
+    .publications-image-three,
+    .publications-image-four,
+    .publications-image-five,
+    .publications-image-six {
         margin-bottom: 30px;
         height: 211px;
         width: 348px;
