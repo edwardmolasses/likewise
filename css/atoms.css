@@ -6,6 +6,10 @@
     position: relative;
 }
 
+.t-20 {
+    top: -20px;
+}
+
 .t3 {
     top: 3px;
 }
@@ -28,6 +32,10 @@
 
 .r0 {
     right: 0;
+}
+
+.l-20 {
+    left: -20px;
 }
 
 .min-100p {
