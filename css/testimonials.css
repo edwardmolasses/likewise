@@ -47,7 +47,7 @@
 }
 
 .testimonials-content-quote-icon-seven {
-    top: 0;
+    top: 20px;
     left: -40px;
     opacity: 0.3;
     font-size: 50px !important;
@@ -100,7 +100,7 @@
 
 @media screen and (max-width: 600px) {
     .testimonials-content-carousel-items {
-        height: 660px;
+        height: 800px;
     }
 
     .testimonials-content-carousel {
@@ -109,7 +109,20 @@
 }
 
 @media screen and (max-width: 500px) {
+    .carousel__nav {
+        display: none;
+    }
+    .carousel__item-three .testimonials-content-quote-text {
+        top: -17px;
+    }
+    .carousel__item-four .testimonials-content-quote-text {
+        width: 240px;
+    }
 
+    .testimonials-content-quote-icon-six {
+        top: 27px;
+        left: -34px;
+    }
 }
 
 @media screen and (max-width: 320px) {
