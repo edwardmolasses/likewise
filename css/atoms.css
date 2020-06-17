@@ -213,7 +213,7 @@
     text-decoration: none;
     outline: 0;
     border: none;
-    -moz-outline-style: none
+    -moz-outline-style: none;
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */

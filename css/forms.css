@@ -5,3 +5,13 @@
 .validation-error {
     border: solid 1px red;
 }
+
+.subheading-bumper-line {
+    padding-top: 20px;
+}
+
+.subheading-bumper-line > div {
+    width: 30px;
+    border-bottom: solid 2px;
+    opacity: 50%;
+}
