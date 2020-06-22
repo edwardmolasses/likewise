@@ -1,0 +1,117 @@
+
+/**********************************************/
+/*                  LAWYERS                   */
+/**********************************************/
+
+.lawyers-banner {
+    height: 640px;
+    background-color: #000;
+    background-size: 120%;
+    background-position: 20% 100%;
+}
+
+.lawyers-banner > div {
+    margin-top: 0px;
+}
+
+.lawyers-banner-title {
+    font-size: 50px;
+    margin-top: 15%;
+}
+
+.lawyers-banner-title-caret {
+    top: 80px;
+}
+
+.lawyers-banner-thankyou-xs {
+    display: none;
+}
+
+@media screen and (max-width: 1075px) {
+    .lawyers-banner {
+        height: 600px;
+        background-color: #000;
+        background-size: cover;
+    }
+
+    .lawyers-banner-title {
+        font-size: 30px;
+    }
+    
+    .lawyers-banner-title > div {
+        margin-left: 10%;
+    }
+
+    .lawyers-banner {
+        background-image: url('../images/1024lawyers.png');
+        background-position: 20% 100%;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    .lawyers-banner {
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .lawyers-banner-title > div {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .lawyers-banner-contact,
+    .banner-footer-logo-container {
+        display: none;
+    }
+    .lawyers-banner {
+        background-image: url('../images/850lawyers.png');
+        background-position: center;
+    }
+    .lawyers-banner-title-thankyou {
+        display: none;
+    }
+
+    .lawyers-banner-thankyou-xs {
+        display: block;
+        width: 100vw;
+
+        top: 60px;
+        font-size: 35px !important;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lawyers-banner-title {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .lawyers-banner-title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .lawyers-banner {
+        height: 321px;
+        background-image: url('../images/320lawyers.png');
+    }
+    .lawyers-banner-thankyou-xs {
+        font-size: 20px !important;
+    }
+    .lawyers-banner > div {
+        margin-top: -40px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .lawyers-banner {
+        height: 321px;
+        background-image: url('../images/320lawyers.png');
+    }
+}
+
