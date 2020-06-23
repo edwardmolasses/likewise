@@ -39,6 +39,13 @@
     padding-bottom: 80px;
 }
 
+@media screen and (min-width: 1265px) {
+    .linebreak-gt-xl::before {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
 @media screen and (max-width: 1075px) {
     .nav-buffer-after {
         height: 20px;
