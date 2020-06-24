@@ -353,4 +353,8 @@
         height: 282px;
         background-image: url('../images/320map.png');
     }
+
+    .services-banner > div {
+        padding-top: 40px;
+    }
 }
