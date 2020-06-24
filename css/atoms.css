@@ -241,6 +241,14 @@
     text-align: center;
 }
 
+.tal {
+    text-align: left;
+}
+
+.tar {
+    text-align: right;
+}
+
 .lh09 {
     line-height: 0.9;
 }
@@ -251,4 +259,8 @@
 
 .b0 {
     border: none;
+}
+
+.display-inline {
+    display: inline;
 }

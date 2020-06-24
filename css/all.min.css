@@ -45,6 +45,13 @@
     }
 }
 
+@media screen and (min-width: 700px) {
+    .linebreak-gt-md::before {
+        content: "\A";
+        white-space: pre;
+    }
+}
+
 @media screen and (max-width: 1090px) {
     .hamburger-menu-btn {
         margin-top: 5px;
