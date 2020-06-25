@@ -208,6 +208,10 @@
         content: "\A";
         white-space: pre;
     }
+
+    .cv-listing-double-column, .cv-listing-triple-column {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 340px) {
